@@ -8,5 +8,7 @@ docker run -d --name AdGuard-Home1 -v /opt/docker/AGH_Docker1:/opt/adguardhome/w
 1，openclash上传到：/etc/openclash
 
 ZashBoard 配置导入：https://gh-proxy.com/raw.githubusercontent.com/liandu2024/little/refs/heads/main/zashboard/zashboard-20250417.json
+
 防火墙-区域设置-常规设置-允许转发到目标区域：+LAN，+WAN
+
 防火墙-区域设置-高级设置-涵盖的设备：+桥接Br，+桥接docker
