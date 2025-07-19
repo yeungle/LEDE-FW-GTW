@@ -40,24 +40,3 @@ config odhcpd 'odhcpd'
 	option leasetrigger '/usr/sbin/odhcpd-update'
 	option loglevel '4'
 
-config host
-	option name 'Linksys02153'
-	option dns '1'
-	option leasetime '12h'
-	list mac 'C4:41:1E:96:F0:2A'
-	option ip '192.168.1.101'
-
-config host
-	option name 'Linksys00608'
-	option dns '1'
-	option leasetime '12h'
-	list mac 'E8:9F:80:45:25:28'
-	option ip '192.168.1.100'
-
-config host
-	option name 'DS918'
-	option dns '1'
-	option mac '00:11:32:82:68:b7'
-	option ip '192.168.1.200'
-	option leasetime '12h'
-
